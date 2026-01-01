@@ -35,7 +35,7 @@ export function Header() {
               <img
                 src={Logo}
                 alt="Fluxy Technologies"
-                className="w-25 h-25 rounded object-contain"
+                className="w-25 h-25 rounded-full! object-contain"
               />
             </div>
             <span className={`text-xl font-bold transition duration-300  ${isMobileMenuOpen ? "text-foreground!" : ""} ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>Fluxy Technologies</span>
